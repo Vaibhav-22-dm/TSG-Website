@@ -1,0 +1,193 @@
+.departmentFacultyContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.departmentFacultyCard{
+    width: 25%;
+    padding: 10px;
+}
+
+.departmentFacultyInnerCard{
+    width: 100%;
+    background-color: white;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+    border-radius: 10px;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+}
+
+.departmentFacultyCardLayerOne{
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    width: 100%;
+}
+
+.departmentFacultyProfilePic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.departmentFacultyProfilePicCircle{
+    width: 100px;
+    height: 100px;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border-radius: 50%;
+}
+
+.departmentFacultyName{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    border-bottom: 2px solid black;
+}
+
+.departmentFacultyPost{
+    color: #5576EB;
+    padding: 10px;
+}
+
+.departmentFacultyDetails{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.departmentFacultyLinkBox{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    width: 100%;
+    color: #9C9C9C;
+    padding: 0px 0px 5px 0px;
+}
+
+.departmentFacultyDetails .departmentFacultyLinkBox:last-child{
+    padding-bottom: 20px;
+}
+
+.departmentFacultyIcon{
+    color: #9C9C9C;
+    font-size: 20px !important;
+    margin-right: 10px;
+}
+
+.departmentFacultyCardButtonBox{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.departmentFacultyCardButton{
+    /* background-color: #7694FF; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* color: white; */
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 15px;
+    width: 200px;
+    transition: all 0.5s ease;
+}
+
+
+.departmentFacultyCardLayerTwo{
+    position: absolute;
+    /* bottom: 100%; */
+    width: 100%;
+    height: 100%;
+    background-color: #7694FF;
+    color: white;
+    z-index: 5;
+    transition: bottom 0.5s ease;
+    padding-bottom: 65px;
+}
+
+.departmentFacultyCardLayerTwo ul{
+    width: 96%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.departmentFacultyCardLayerTwo ul li{
+    list-style: disc !important;
+    color: white;
+}
+
+.departmentFacultyCardLayerTwo ul::-webkit-scrollbar {
+    width: 4px;
+}
+
+.departmentFacultyCardLayerTwo ul::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+  border: #7694FF solid 5px;
+}
+
+.departmentFacultyCardLayerTwo ul::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  /* border: 1px solid #7694FF;
+  border-left: 3px;
+  border-right: 3px; */
+  background-color: #fff;
+}
+
+/* .departmentFacultyCardButtonBox:target .departmentFacultyCardLayerTwo{
+    bottom: 0;
+} */
+
+@media only screen and (max-width:1400px){
+    .departmentFacultyCard{
+        width: 33.33%;
+    }
+}
+
+
+@media only screen and (max-width:1000px){
+    .departmentFacultyCard{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .departmentFacultyCard{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .departmentFacultyInnerCard{
+        max-width: 350px;
+    }
+
+    .departmentFacultyContainer{
+        justify-content: center;
+    }
+}

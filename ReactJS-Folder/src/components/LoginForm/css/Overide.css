@@ -1,0 +1,38 @@
+.makeStyles-buttonWrapper-8:hover .makeStyles-button-13 {
+    background-color: #ffffff !important;
+    opacity: 1 !important;
+  }
+  .makeStyles-button-13 {
+    color: black !important;
+    background-color: transparent !important;
+    font-size: 4em !important;
+  }
+  @media only screen and (max-width: 500px) {
+    .CarouselLayout {
+      margin: 0 1.1em;
+      height: 13em;
+    }
+    .makeStyles-buttonWrapper-8 {
+      display: none;
+    }
+  }
+  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    border-radius: 50px !important;
+  }
+  
+  .MuiTabs-scroller {
+    overflow: hidden;
+    margin-bottom: 0px;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    align-content: center!important;
+  }
+  .css-1gsv261 {
+    border-bottom: 0px solid!important;
+  
+  }
+
+  .css-1v4ccyo{
+    border-radius: 50px !important;
+  }

@@ -1,0 +1,120 @@
+.hallCouncilContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 1360px;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.hallCouncilBox{
+    width: 33.33%;
+    padding: 5px;
+}
+
+.hallCouncilCard{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+    max-width: 430px;
+}
+
+.hallCouncilProfilePic{
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hallCouncilProfilePicCircle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.hallCouncilCardDetails{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.hallCouncilMemberName{
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.hallCouncilMemberPosition{
+    font-size: 17px;
+    padding-top: 5px;
+    color: #5576EB;
+}
+
+.hallCouncilSocialLinks{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.hallSocialIcon{
+    color: #5576EB !important;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .hallCouncilProfilePicCircle{
+        width: 60px;
+        height: 60px;
+    }
+
+    .hallCouncilMemberName{
+        font-size: 17px;
+    }
+
+    .hallCouncilMemberPosition{
+        font-size: 15px;
+    }
+
+    .hallCouncilProfilePic{
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:900px){
+
+    .hallCouncilProfilePicCircle{
+        width: 65px;
+        height: 65px;
+    }
+
+    .hallCouncilBox{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width:900px){
+
+    .hallCouncilContainer{
+        align-items: center;
+    }
+    
+    .hallCouncilBox{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+

@@ -1,0 +1,178 @@
+body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+  }
+   
+  /* Handle */
+  body::-webkit-scrollbar-thumb {
+    background: #7694FF; 
+    border-radius: 10px;
+  }
+
+  .ant-modal-wrap::-webkit-scrollbar {
+    width: 6px;
+  }
+  .ant-modal-wrap::-webkit-scrollbar-thumb {
+    background: #7694FF; 
+    border-radius: 10px;
+  }
+
+.title {
+    font-size: 36px;
+    font-family: inherit;
+    font-weight: 600;
+    margin-left: 5%;
+    margin-top: 1.8%;
+}
+
+.card {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    height: 80vh;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 0px rgba(118, 148, 255, 0.25);
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+  }
+
+div::-webkit-scrollbar-thumb {
+    background: #7694FF; 
+    border-radius: 10px;
+  }
+
+div::-webkit-scrollbar {
+    width: 10px;
+  }
+   
+
+.guidemap {
+    width: 80%;
+    height: 80vh;
+}
+
+.mapc {
+    width: 80%;
+    height: 70vh;
+}
+
+@media only screen and (max-width:1272px) {
+    .guidemap {
+        width:120%;
+    }
+}
+@media only screen and (max-width:972px) {
+    .guidemap {
+        width:150%;
+    }
+    .mapc {
+        width: 120%;
+    }
+}
+@media only screen and (max-width:672px) {
+    .guidemap {
+        width:180%;
+    }
+    .title {
+        font-size: 24px;
+        margin-left: 5%;
+    }
+}
+@media only screen and (max-width:472px) {
+    .guidemap {
+        width:210%;
+    }
+}
+/* 
+@media only screen and (max-width:1440px) {
+    .card {
+        height: 50vw;
+    }
+    .guidemap {
+        height: 40vw;
+    }
+}
+
+@media only screen and (max-width:972px) {
+    .card {
+        height: 60vw;
+    }
+    .guidemap {
+        height: 48vw;
+    }
+    .mapc {
+        height: 42vw;
+    }
+}
+
+@media only screen and (max-width:772px) {
+    .card {
+        height: 70vw;
+    }
+    .guidemap {
+        height: 48vw;
+    }
+}
+
+@media only screen and (max-width:460px) {
+    .card {
+        height: 78vw;
+    }
+    .guidemap {
+        height: 52vw;
+    }
+} */
+
+/* @media only screen and (max-width:1640px) {
+    .card {
+        height: 50vw;
+    }
+    .guidemap {
+        height: 43vw;
+    }
+}
+@media only screen and (max-width:1440px) {
+    .card {
+        height: 57vw;
+    }
+    .guidemap {
+        height: 50vw;
+    }
+}
+@media only screen and (max-width:1240px) {
+    .card {
+        height: 66vw;
+    }
+    .guidemap {
+        height: 58vw;
+    }
+}
+@media only screen and (max-width:1072px) {
+    .card {
+        height: 80vw;
+    }
+    .guidemap {
+        height: 66vw;
+        width: 90%;
+    }
+}
+@media only screen and (max-width:810px) {
+    .card {
+        height: 99vw;
+    }
+    .guidemap {
+        height: 80vw;
+        width: 90%;
+    }
+} */

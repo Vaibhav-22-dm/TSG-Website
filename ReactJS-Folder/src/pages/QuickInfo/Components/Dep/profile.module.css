@@ -1,0 +1,190 @@
+/* ------### Variables ###------ */
+:root {
+  --blue: #7694ff;
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #f2f2f2;
+  --darkgrey: #9c9c9c;
+}
+/* ------ Variables END ------ */
+
+/* ------### Commonly used Utility classes ###------ */
+.dflex {
+  display: flex;
+}
+.fdc{
+    flex-direction: column;
+}
+.fg1 {
+  flex-grow: 1;
+}
+.fb50{
+    flex-basis: 50%;
+}
+.fwt{
+  flex-wrap: wrap;
+}
+.w100{
+    width: 100%;
+}
+.h100{
+    height: 100%;
+}
+.jcen {
+  justify-content: center;
+}
+.acen {
+  align-items: center;
+}
+.abtm {
+  align-items: flex-end;
+}
+.jspace {
+  justify-content: space-between;
+}
+.jeven{
+  justify-content: space-evenly;
+}
+.jend {
+  justify-content: flex-end;
+}
+.pad20 {
+  padding: 20px;
+}
+.pad2010 {
+    padding: 10px 20px;
+  }
+.padl40{
+    padding-left: 40px;
+}
+.padlr20{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.dib{
+  display: inline-block;
+}
+.eqspace {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.eqspace20{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mspacetop {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.mspcaebtm {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.eqspace_h {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.ml10 {
+  margin-left: 10px;
+}
+.mr10 {
+  margin-right: 10px;
+}
+.greybg{
+  background-color: var(--grey);
+}
+.greyclr{
+  color: var(--darkgrey);
+}
+.bluehvr:hover{
+  cursor: pointer;
+  box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+}
+.wmaxc{
+  width: max-content;
+}
+.hvrptr:hover{
+  cursor: pointer;
+}
+/* ------ Utility classes END ------ */
+
+
+.outermostwrapper {
+  margin: 0 3.1rem;
+}
+.pageHeading {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+
+.main{
+  width: 100%;
+}
+.cardwrapper{
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.85rem;
+}
+.Depcard{
+  position: relative;
+  margin: 20px 0;
+}
+.titleIm{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 600;
+  z-index: 1;
+  text-align: center;
+}
+.cardImg{
+  border-radius: 15px;
+  /* opacity: 0.7; */
+  width: 100%;
+}
+.darkblur{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 98%;
+  border-radius: 15px;
+}
+/* ==== Media Queries ==== */
+@media only screen and (max-width: 1000px) {
+    .outermostwrapper{
+        margin: 0 2rem;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .titleIm{
+        font-size: 0.8rem;
+        line-height: 1.2;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .cardwrapper{
+        grid-template-columns: 45% 45%;
+    }
+}
+@media only screen and (max-width: 600px) {
+      .outermostwrapper{
+        margin: 0 1.2rem;
+      }
+      .imgwrap{
+        margin-inline: -1.2rem;
+        width: 100vw;
+      }
+}

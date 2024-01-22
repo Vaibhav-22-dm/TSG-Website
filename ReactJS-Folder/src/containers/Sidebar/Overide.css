@@ -1,0 +1,25 @@
+.MuiButtonBase-root {
+    margin-left:0.1rem!important;
+    margin-bottom: -0.4em!important;
+}
+.css-2t95ll{
+    display:none!important;
+    
+}
+
+.css-zxdg2z{
+    padding: 0 24px !important
+}
+
+@media (min-width: 600px)
+{
+.css-n4d6c8-MuiDrawer-docked .MuiDrawer-paper {
+    width: calc(60px + 1px)!important;
+}
+
+.css-n4d6c8-MuiDrawer-docked {
+    width: calc(60px + 1px)!important;
+}
+}
+
+

@@ -1,0 +1,103 @@
+.landingLayout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 410px;
+}
+
+.hallCoverPhoto {
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    display: block;
+    max-width: 1360px;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+    background-size: cover !important;
+    background-position: center !important;
+    height: 390px;
+}
+
+.hallNavContainer{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(62, 58, 58, 0.22);
+    margin: auto;
+}
+
+.hallNavBox{
+    display: flex;
+    width: 100%;
+    max-width: 1050px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px 0px 5px;
+}
+
+.hallNavItem{
+    width: 33%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: none !important;
+    background: transparent !important;
+    cursor: pointer;
+}
+
+.activeHallTab.hallNavItem{
+    color: #7694FF;
+    padding-bottom: 5px;
+}
+
+.activeHallTab.hallNavItem:after { 
+    content: ""; 
+    float: left; 
+    background: #7694FF; 
+    width: 100%; 
+    height: 8px; 
+    border-radius: 4px;
+    position: relative;
+    top: 10px;
+}
+
+@media screen and (max-width:1000px) {
+    .landingLayout{
+        height: 360px;
+    }
+
+    .hallCoverPhoto{
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .landingLayout{
+        height: 330px;
+    }
+
+    .hallCoverPhoto{
+        height: 320px;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+
+    .hallCoverPhoto{
+        width: 100%;
+        border-radius: 0px;
+        height: 300px;
+    }
+
+    .activeHallTab.hallNavItem:after{
+        height: 6px;
+    }
+
+    .hallNavItem{
+        font-size: 17px;
+        padding: 5px;
+    }
+}

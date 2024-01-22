@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.container {
+  background-color: white;
+
+  height: 200px;
+  margin-right: 3vw;
+  margin-bottom: 20px;
+  display: flex;
+  color:black;
+}
+.container:hover {
+  box-shadow: "3px 3px 18px rgba(118, 148, 255, 0.25)";
+}
+.image {
+  height: 200px;
+  width:200px;
+}
+.data {
+  width: 70vw;
+
+  height: 200px;
+}
+.heading {
+  font-family: "Poppins";
+  width: 90%;
+  border-bottom: 1.5px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+
+  font-weight: bold;
+}
+
+.name {
+  font-family: "Poppins";
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.tags {
+  border-radius: 20px;
+  display: inline-block;
+  border: 1.5px solid rgba(118, 148, 255, 1);
+  color: rgba(118, 148, 255, 1);
+  width: 120px;
+  text-align: center;
+}
+.wrap {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+}
+.time {
+  display: flex;
+  font-family: "Poppins";
+  float: right;
+}
+.timevalue {
+  margin-left: 6px;
+  font-family: "Poppins";
+}
+.content{
+    height:130px;
+}
+@media (max-width: 1040px) {
+  .container {
+    height: 146px;
+    margin-bottom: 15px;
+  }
+  .image {
+    height: 146px;
+    width:146px;
+  }
+ .content{
+     height:90px;
+ }
+ 
+  .wrap {
+    margin-top: 6px;
+    width: 95%;
+  }
+  .heading {
+    font-size: 14px;
+    width: 95%;
+  }
+  .name {
+    width: 95%;
+  }
+  .data{
+    height: 146px;
+  }
+}
+
+@media (max-width: 820px) {
+  .container {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 500px) {
+  .wrap {
+    width: 96%;
+  }
+  .heading {
+    width: 96%;
+  }
+  .name {
+    width: 96%;
+  }
+  .timevalue {
+    margin-right: 5px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    height: 130px;
+  }
+  .data{
+    height: 130px;
+  }
+  .image {
+    height: 130px;
+    width:130px;
+  }
+  .content{
+      height:90px;
+  }
+  .heading {
+    margin-top: 5px;
+  }
+  
+  .tags {
+    border-radius: 10px;
+
+    font-size: 12px;
+
+    width: 90px;
+  }
+
+  .timevalue {
+    font-size: 12px;
+    margin-left:3px;
+  }
+  .icon {
+    width: 15px;
+  }
+.time{
+    transform: translateY(4px);
+}
+  .wrap {
+    margin-top: 4px;
+  }
+}
+@media (max-width: 450px) {
+  .image {
+    height: 130px;
+   
+  }
+  .heading {
+    font-size: 12px;
+  }
+  .name {
+    font-size: 12px;
+  }
+  
+  .tags {
+    font-size: 12px;
+  }
+  .icon {
+    width: 15px;
+  }
+  .timevalue {
+    font-size: 12px;
+  }
+  
+}
+@media (max-width: 380px) {
+  .image {
+    width:35%;
+    
+  }
+}
+@media (max-width: 340px) {
+ 
+  .container {
+    height: 110px;
+  }
+ 
+  .image{
+      height:110px;
+  }
+  .data{
+    height:110px;
+  }
+ .content{
+     height: 75px;
+ }
+}

@@ -1,0 +1,25 @@
+.modal_overlay{
+    position: fixed;
+    top: 12.5vh;
+    left: 15vw;
+    width: 70vw;
+    height: 75vh;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 30;
+    overflow: auto;
+}
+
+@media (max-width: 1000px){
+    .modal_overlay{
+        width: 80vw;
+        left: 10vw;
+    }
+}
+
+@media (max-width: 700px){
+    .modal_overlay{
+        width: 95vw;
+        left: 2.5vw;
+    }
+}

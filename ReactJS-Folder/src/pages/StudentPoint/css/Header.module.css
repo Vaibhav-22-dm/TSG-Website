@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+.svg {
+  border-radius: 20px;
+  height: 433px;
+  
+}
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right:auto;
+  background: #ffffff;
+  box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+  border-radius: 20px;
+  height: 433px;
+  display: flex;
+}
+
+.content{
+    width:70%;
+    margin-left:80px;
+    font-family: 'Poppins';
+}
+.heading {
+  font-size: 56px;
+  font-style: 'SemiBold';
+  font-family: 'Poppins';
+}
+
+.text {
+  font-size: 22px;
+  font-style: 'regular';
+  line-height: 36.3px;
+  font-family: 'Poppins';
+}
+
+.cpbutton {
+  padding: 0px;
+  margin-right: 0;
+  /* position: absolute; */
+  position:relative;
+  top:50px;
+}
+
+
+@media only screen and (max-width: 1344px) {
+  
+  .heading{
+    font-size: 50px;
+  }
+
+  .text {
+    line-height: normal;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1268px) {
+  
+  .heading{
+    font-size: 44px;
+  }
+
+  .text {
+    line-height: normal;
+    font-size: normal;
+  }
+}
+
+@media only screen and (max-width: 1192px) {
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .cpbutton{
+    position: absolute;
+    right: 4.8%;
+    top: 270px;
+  }
+  .content{
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .svg {
+    height: 350px;
+  }
+
+  .heading {
+    font-size: 35px;
+  }
+
+  .text{
+    font-size: 16px;
+  }
+  .cpbutton {
+    height: 240px;
+    top:270px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .cpbutton{
+    top: 340px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .svg {
+    height: 300px;
+  }
+
+  .heading{
+    font-size: 30px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+  .cpbutton {
+    top: 270px;
+    height: 240px;
+    right:0%;
+}
+.container{
+  width:100%;
+  border-radius:0px;
+}
+
+}
+
+@media only screen and (max-width:436px) {
+  .svg {
+    height: 250px;
+  }
+
+  .heading{
+    font-size: 25px;
+  }
+
+  .text {
+    font-size: 12px;
+  }
+  .cpbutton {
+    height: 180px;
+    
+    top: 270px;
+  }
+}
+
+@media only screen and (max-width:360px) {
+  .svg {
+    height: 231px;
+  }
+  .cpbutton {
+    height: 180px;
+    top: 300px;
+   
+  }
+  .content{
+    margin-left:20px;
+  }
+  
+}
+
+.sph {
+  font-family: 'Poppins';
+  font-size: 36px;
+  font-style: 'SemiBold';
+  margin-left: 5%;
+  padding-top: 20px;
+  padding-bottom: 10px ;
+}
+@media only screen and (max-width:290px){
+  .content{
+    margin-left:10px;
+    
+  }
+  .heading{
+    font-size: 22px;
+  }
+}

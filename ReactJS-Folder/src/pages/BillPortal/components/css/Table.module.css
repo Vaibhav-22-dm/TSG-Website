@@ -1,0 +1,123 @@
+.tableContainer{
+    background: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 0px 15px;
+    box-shadow: 3px 3px 18px #7694ff40;
+    margin-top: 20px;
+    min-width: 300px;
+    overflow: scroll;
+}
+
+.tableContainer table{
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.tableContainer th, .tableContainer td{
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.tableEventHead{
+    text-align: left !important;
+}
+
+.tableEventName{
+    text-align: left !important;
+}
+
+.tableContainer th:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.tableContainer tr{
+    box-shadow: 0px 0px 20px rgba(153, 175, 253, 0.25);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.tableContainer thead tr:first-child{
+    background: #F2F2F2;
+    border-radius: 10px;
+}
+
+.tableContainer tr th{
+    font-weight: 500;
+    color: #3C3C3C;
+    font-size: 15px;
+}
+
+.statusButton{
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    padding: 3px 20px;
+    color: white;
+    background:rgba(118, 148, 255);
+    transition: all 0.5s ease;
+    font-size: 15px;
+}
+
+.viewButton{
+    background: #7694ff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.viewButton:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+    transform: scale(1.1)
+}
+
+.tableEventView{
+    padding: 5px;
+}
+
+@media screen and (max-width:600px){
+    .viewButton, .statusButton{
+        padding: 3px 10px;
+    }
+
+    .tableContainer th, .tableContainer td{
+        padding: 5px;
+    }
+
+    .tableContainer td{
+        font-size: 12px;
+    }
+
+    .viewButton, .statusButton{
+        font-size: 12px;
+    }
+
+}
+
+
+.tableContainer::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+
+.tableContainer::-webkit-scrollbar-thumb {
+    background: #7694ff;
+    border-radius: 10px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.tableContainer::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.tableContainer {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}

@@ -1,0 +1,45 @@
+.headerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1em;
+  width:90%
+}
+
+.headerH1{
+  width: 90%;
+}
+
+.headerH1 h1{
+   font-weight: 600;
+   font-size: 2.2rem;
+}
+
+.goToBack{
+    width:40px;
+    height:40px;
+    background-color:#7694ff ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor:pointer
+}
+
+@media screen and (max-width:600px) {
+  .goToBack{
+    width:30px;
+    height:30px;
+  }
+
+  .headerDiv h1{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0px;
+ }
+
+ .headerContainerHide{
+   display: none !important;
+ }
+  
+}

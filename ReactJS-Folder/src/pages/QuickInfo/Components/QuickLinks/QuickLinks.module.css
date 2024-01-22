@@ -1,0 +1,242 @@
+.QLLayout{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+
+
+.LinksContainer {
+ 
+  background-color: white;
+  border-radius: 20px;
+  margin:auto;
+  box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  width: auto;
+  max-width: fit-content;
+}
+
+.urlContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease-out;
+  margin-right: 1em;
+  width:80%
+}
+
+.urlContainer ul {
+  padding:0.3em  2em;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.7em;
+  overflow-y: scroll;
+  border-radius: 10px;
+  position: relative;
+  overflow-y: auto;
+  max-height: 80%;
+}
+.urlContainer ul li {
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(153, 175, 253, 0.25);
+  border-radius: 10px;
+  padding: 0.9em;
+  min-width: 30vw;
+}
+.urlContainer ul::-webkit-scrollbar {
+  width: 4px;
+}
+
+.urlContainer ul::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px grey;
+}
+
+.urlContainer ul::-webkit-scrollbar-thumb {
+  background: #748ff1f1;
+  border-radius: 50px;
+}
+
+.tag {
+  writing-mode: vertical-lr;
+  width: 100%;
+  background: #7694ff;
+  height: 45%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  max-height: 16rem;
+}
+
+.tiltedLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  cursor: pointer;
+  width: 2.6em;
+  box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+  transition: position 5s ease-out;
+}
+
+.arrow {
+  background: white;
+  border-radius: 50%;
+  transform: scale(0.8);
+  margin-top: 1.5em;
+  width: 23px;
+  height: 23px;
+  margin-top: auto;
+  margin-bottom: 1em;
+}
+
+.midImg {
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  transform: scale(0.8);
+  margin: 0 4vw;
+}
+
+.active {
+  cursor: none;
+  pointer-events: none;
+}
+
+.animate {
+  transition: 3s ease-in-out;
+}
+
+.border {
+  border-end-end-radius: 10px;
+  border-end-start-radius: 10px;
+}
+.borderO {
+  border-start-end-radius: 10px;
+  border-start-start-radius: 10px;
+}
+.screensize {
+  display: flex;
+}
+
+.urlContainer a li{
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  color: #3c3c3cdc;
+}
+
+@media only screen and (max-width: 1119px) and (min-width: 687px) {
+  .screensize {
+    flex-direction: column;
+  }
+
+  .LinksContainer {
+    min-height: 90vh;
+  }
+
+  .urlContainer {
+    width: 100%;
+  }
+  .urlContainer ul {
+    width: 90%;
+  }
+  .urlContainer ul li {
+    width: 100%;
+  }
+
+  
+  .tiltedLinks {
+    box-shadow: 0px 0px 0px rgba(118, 148, 255, 0.25);
+  }
+}
+.links{
+  transition: 0.2s;
+}
+
+.links:hover {
+  background-color:#7694ff!important;
+  color:white!important;
+ }
+
+@media only screen and (max-width: 687px) {
+  .tag {
+    writing-mode: initial;
+    width: 100%;
+    background: #7694ff;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-height: 16rem;
+  }
+
+  .tiltedLinks {
+    height: 2.6em;
+    width: 100%;
+  }
+
+  .LinksContainer {
+    flex-direction: column;
+    max-width:90vw
+  }
+  .screensize {
+    flex-direction: column;
+  }
+
+  .urlContainer {
+    width: 100%;
+  }
+  .urlContainer ul {
+    width: 100%;
+  }
+  .urlContainer ul li {
+    width: 100%;
+  }
+  .midImg{
+    transform: scale(0.5);
+    margin: -4em;
+  }
+
+  .arrow {
+    height: 23px;
+    margin-left: auto;
+    margin-right: 1em;
+    transform: rotate(90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 1em;
+  }
+}
+
+@media only screen and (max-width: 1119px)
+{
+  .LinksContainer{
+    margin-bottom:2em
+  }
+}
+
+
+@media only screen and (min-width:1119px)
+{
+  .LinksContainer{
+    max-height:80vh
+  }
+
+}
+
+
+.screensize{
+  transition:opacity 0.6s ease-out;
+}

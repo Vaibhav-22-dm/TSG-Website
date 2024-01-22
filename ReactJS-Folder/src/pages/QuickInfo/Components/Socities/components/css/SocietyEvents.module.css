@@ -1,0 +1,173 @@
+.societyEventsContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    max-width: 1360px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.societyEventsBox{
+    width: 33.33%;
+    height: 390px;
+    padding: 10px;
+}
+
+.societyEventsCard{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+}
+
+.societyEventsContent{
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.societyEventsTitle{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.societyEventsInfo{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.societyEventsButtons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+.societyEventsReadMore{
+    border: none;
+    background-color: #efefef;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: fit-content;
+    cursor: pointer;
+    color: black !important;
+}
+
+.societyEventsInfoIconBox{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.societyEventsDateBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    background: #efefef;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.societyEventsDateIcon{
+    font-size: 20px !important;
+}
+
+.societyEventsDate{
+    padding: 0px 5px;
+}
+
+.societyEventsInfoIcon{
+    display: none !important;
+}
+
+@media screen and (max-width:1000px){
+
+    .societyEventsMoreInfo{
+        display: none !important;
+    }
+
+    .societyEventsInfoIcon{
+        display: flex !important;
+    }
+
+    .societyEventsReadMore{
+        display: none;
+    }
+
+    .societyEventsBox{
+        height: 350px;
+        padding: 5px;
+    }
+
+    .societyEventsCard{
+        padding: 10px;
+    }
+
+    .societyEventsContent{
+        padding: 15px
+    }
+    
+    .societyEventsTitle{
+        font-size: 17px;
+    }
+
+    .societyEventsInfo{
+        font-size: 13px;
+    }
+
+    .societyEventsDate, .societyEventsReadMore{
+        font-size: 13px;
+    }
+
+    .societyEventsDateIcon{
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width:800px){
+
+    .societyEventsBox{
+        height: 300px
+    }
+}
+
+@media screen and (max-width:676px) {
+
+    .societyEventsBox{
+        width: 50%;
+        height: 280px;
+    }
+    
+}
+
+@media screen and (max-width:400px){
+
+    .societyEventsContainer{
+        justify-content: center;
+    }
+
+    .societyEventsBox{
+        width: 90%;
+        height: 330px;
+    }
+
+    .societyEventsInfoIcon{
+        display: none !important;
+    }
+
+    .societyEventsReadMore{
+        display: flex;
+    }
+}

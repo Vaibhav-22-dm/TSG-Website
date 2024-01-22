@@ -1,0 +1,33 @@
+.activeTab{
+    background-color: #fff !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+}
+.inactiveTab{
+    color: white !important;
+    font-weight: 600 !important;
+}
+.activeTabnav{
+    background-color: #fff !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+}
+.inactiveTabnav{
+    color: black !important;
+    font-weight: 600 !important;
+}
+.closeicon{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+.navlogo {
+  width: 3.5rem;
+  height: auto;
+}
+.loginbutton{
+    background-color: #fff;
+    color: #7694ff;
+    border-radius: 1.5rem;
+    padding: 0.2rem 1rem;
+}

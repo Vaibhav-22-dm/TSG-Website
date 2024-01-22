@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.container{
+    background-color:white;
+    border-radius: 20px;
+    padding-left:30px;
+    padding-right:30px;
+    width:100%;
+    padding-top:20px;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+    padding-bottom:10px;
+    
+   
+}
+.stream{
+
+font-family:"Poppins";
+}
+.update{
+    font-family:"Poppins";
+    font-size:27px;
+    font-weight: bold;
+    margin-bottom:5px;
+}
+.streamdrop{
+    height:40px;
+    background-color: rgba(242, 242, 242, 1);
+    font-family:"Poppins";
+    width:100%;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-left:10px;
+    border:0px;
+    outline:0px;
+    margin-bottom:6px;
+    
+
+}
+
+.exdrop{
+    position:absolute;
+    pointer-events: none;
+  }
+  .icon{
+    transform: translate(-36px,6px);
+     position:absolute;
+     width:26px;
+   }
+   .link{
+    height:40px;
+    background-color: rgba(242, 242, 242, 1);
+    font-family:"Poppins";
+    width:100%;
+    border-radius: 5px;
+    border:0px;
+    outline:0px;
+    margin-bottom:6px;
+    
+    padding-left:10px;
+   }
+   ::-webkit-input-placeholder { /* Edge */
+    color:rgba(184, 177, 177, 1);
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:rgba(184, 177, 177, 1);
+  }
+  
+  ::placeholder {
+    color:rgba(184, 177, 177, 1);
+  }
+  .add{
+    font-family:"Poppins";
+  }
+  .updatebutton{
+    font-family:"Poppins";
+    width:120px;
+    border-radius: 50px;
+    background-color: rgba(118, 148, 255, 1);
+    color:white;
+    height:40px;
+    border:0px;
+    outline:0px;
+    font-size: 16px;
+
+  }
+  .button{
+      text-align:center;
+      margin-top:15px;
+  }
+  .alert{
+    font-family:"Poppins";
+    border-radius:5px;
+    background-color:rgba(187, 202, 255, 1);
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:10px;
+    margin-bottom:15px;
+  }
+  @media (max-width:1090px)
+{
+    .update{
+      font-size:22px;
+    }
+}
+@media (max-width:900px)
+{
+    .update{
+      font-size:27px;
+    }
+}
+@media (max-width:400px)
+{
+    .update{
+      font-size:22px;
+    }
+    .container{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+}

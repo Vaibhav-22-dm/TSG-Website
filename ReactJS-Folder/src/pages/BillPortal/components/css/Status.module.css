@@ -1,0 +1,192 @@
+.statusContainer{
+    background: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+}
+.statusHeader{
+    margin: 0;
+    padding: 0 10px 10px 10px;
+}
+
+.infoBox{
+    width: 100%;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.billInfo{
+    width: 50%;
+    padding: 0 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.billHeader{
+    background: #F2F2F2;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.billDataBox{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 10px 10px;
+}
+
+.billEventName{
+    margin: 0;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.billDateBox{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0 0 10px;
+}
+
+.billDate{
+    padding:5px;
+    margin: 0;
+    font-size: 14px;
+}
+
+.calenderIcon{
+    height:20px;
+    width:20px;
+}
+
+.billIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.billIconImage{
+    min-height: 90px;
+}
+
+.billStages{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px 10px 10px;
+}
+
+.stage{
+    display: flex;
+    padding: 0px 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stageLine{
+    width: 100%;
+    height: 40px;
+    border-left: 3px solid #C4C4C4;
+    margin-left: 13px;
+
+}
+
+.stageHeader{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.stageName{
+    font-size: 17px;
+    padding: 0px 10px;
+}
+
+.stageButton{
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    padding: 3px 20px;
+    color: white;
+}
+
+.currentStatus{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 10px 10px;
+}
+
+.billReview{
+    width: 100%;
+    padding: 10px;
+}
+
+.billRemarks{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.billCurrentStatusHeading{
+    font-size: 17px;
+    font-weight: 600;
+    color: #3C3C3C;
+    width: 100%;
+    text-align: left;
+    padding: 0px 10px;
+}
+
+.billCurrentStatusFeedback{
+    color: #9C9C9C;
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.billCurrentStatusImage{
+    transform: scale(0.9);
+}
+
+@media screen and (max-width:900px){
+    .infoBox{
+        flex-direction: column;
+    }
+
+    .billInfo{
+        width: 100%;
+    }
+
+    .currentStatus{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    .billEventName, .stageName{
+        font-size: 15px;
+    }
+
+    .statusHeader{
+        font-size:17px;
+    }
+
+    .billStages{
+        padding: 15px 0px 10px 0px;
+    }
+
+    .billRemarks, .stageButton{
+        font-size: 15px;
+    }
+    
+}
+

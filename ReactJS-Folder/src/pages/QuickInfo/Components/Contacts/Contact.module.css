@@ -1,0 +1,178 @@
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.leftnavContainer {
+  height: 100%;
+  width: 25%;
+  margin: auto;
+  max-width: 400px;
+}
+.imgContainer {
+  height: 0rem;
+  overflow: hidden;
+  transition: height ease 0.3s;
+}
+
+.image {
+  width: auto;
+ margin:6em 0
+}
+
+@media only screen and (min-width:950px) {
+  .image {
+  padding:3em;
+  margin:0
+  }
+}
+
+
+.image img{
+  height: auto;
+  min-height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 0 1rem 1rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px -5px 5px rgba(224, 224, 224, 0.8);
+  border-radius: 10px;
+}
+
+.contactBtn {
+  width: 80%;
+  background: #7694ff;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: none;
+  width: 100%;
+  height: 2.5em;
+  cursor: pointer;
+  border-end-end-radius: 10px;
+  border-end-start-radius: 10px;
+  transition: 0.7s;
+}
+@media only screen and (min-width:1350px) {
+  .contactBtn {
+    height:4
+  }
+}
+.detailConatiner {
+  width: 60%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow-y: auto;
+  max-height: 86vh;
+}
+
+.detailConatiner::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.detailConatiner::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+
+/* Handle */
+.detailConatiner::-webkit-scrollbar-thumb {
+  background: #7694ff;
+  border-radius: 10px;
+}
+
+.contactMain {
+  max-width: 1000px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.contactCards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: auto;
+  justify-content: center;
+}
+
+
+
+@media only screen and (max-width:600px)
+{
+  
+  .rightnavContainer{
+    width:100%;
+  }
+  .detailConatiner{
+    width:100%;
+  }
+  .detailConatiner::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  .contactContainer{
+    flex-direction: column;
+    row-gap: 2em;
+    margin-bottom: 2em;
+  }
+  .imgContainer{
+    display:none
+  }
+  .leftnavContainer{
+    height: 100%;
+    margin: auto;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+  }
+  .card{
+    background-color: #F2F2F2;
+    width: 100%;
+    height: auto;
+    padding:0px;
+    border-radius: 0.5rem;
+    box-shadow: 0px -5px 5px rgb(224 224 224 / 80%);
+    border-radius: 10px;
+    display: flex;
+    column-gap: 2em;
+    border-radius: 5px;
+    justify-content: center;
+  }
+  .contactBtn{
+    border-radius: 5px; 
+    padding: 0 0.5em;
+    width:88%
+  }
+
+  .activeBtn
+  {
+    background-color: white;
+    color:#7694ff
+  }
+  .btnDiv{
+    width:33%
+  }
+}

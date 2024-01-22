@@ -1,0 +1,147 @@
+
+.QuickContainer {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column-gap: 1em;
+  column-gap: 1em;
+  grid-row-gap: 1em;
+  row-gap: 1em;
+  justify-content:center;
+  align-items: center;
+  align-content: center;
+  max-width: 1350px;
+  margin: auto;
+
+   
+}
+@media only screen and (min-width:1450px)
+{
+  .QuickContainer {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 1em;
+    column-gap: 0em;
+    grid-row-gap: 1em;
+    row-gap: 2em;
+    justify-content:space-between;
+    align-items: center;
+    align-content: center;
+    max-width: 1300px;
+    margin: auto;
+  
+     
+  }
+}
+.QuickcardContainer {
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding:2.5em 4em;
+  box-shadow: 2px 2px 13px rgba(118, 148, 255, 0.25);
+  cursor: pointer;
+  transition: 0.4s;
+  height:16em;
+  width:17em
+}
+.QuickcardContainer:hover{
+  background-color: #7694ff;
+}
+.QuickcardContainer:hover  .Icon{
+  stroke:rgba(255, 255, 255, 0.9);
+  fill:rgba(255, 255, 255, 0.9)
+}
+.QuickcardContainer:hover  h3{
+ color:white
+}
+
+.Qitext {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-left:2em;
+}
+@media only screen and (max-width:700px)
+{
+  .Qitext {
+    text-align: center;
+    margin-left:0em;
+  }
+ 
+
+  .QuickcardContainer {
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding:0;
+    box-shadow: 2px 2px 13px rgb(118 148 255 / 25%);
+    cursor: pointer;
+    transition: 0.4s;
+    height: 10.5em;
+    width: 10rem;
+    column-gap:0
+  } 
+
+  .QuickcardContainer svg {
+   transform:scale(0.6);
+   margin-bottom:-1em;
+  }
+
+  .QuickContainer {
+    display: flex;
+    flex-wrap: wrap;
+    grid-row-gap: 1em;
+    grid-row-gap: 2em;
+    row-gap: 2em;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    max-width: 1300px;
+    margin: auto;
+    margin: 0;
+    margin-bottom:2em
+     
+  }
+}
+
+
+.QuickContainer img{
+  width:100%;
+  height: 110px;
+}
+.text{
+  width:80%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-align: center!important;
+  color: #455A64;
+  text-align-last: center!important;
+  
+}
+
+@media only screen and (max-width:900px)
+{
+  .Qitext {
+    text-align: center;
+    margin-left:0em;
+  }
+}
+.mainQiLayout{
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+
+

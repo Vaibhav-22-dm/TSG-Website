@@ -1,0 +1,13 @@
+.mainContent{
+    /* display: flex; */
+}
+.descriptionS{
+    padding-left: 60px;
+    background-color: #f2f2f2;
+    min-height: 100vh;
+}
+.descriptionT{
+    padding-left: 0px;
+    background-color: #f2f2f2;
+    min-height: 100vh;
+}

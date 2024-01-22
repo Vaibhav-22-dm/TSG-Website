@@ -1,0 +1,45 @@
+.achievements {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1em;
+  transition: 0.5s;
+}
+
+.achievements:hover {
+  box-shadow: 3px 3px 18px rgb(118 148 255 / 25%);
+  cursor: pointer;
+}
+
+.imgCName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  column-gap: 1em;
+  padding: 0em 1em;
+}
+
+.achievements h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 165%;
+}
+
+.achievements  img{
+  cursor:pointer;
+  width:1.5em
+}
+@media only screen and (max-width:600px)
+{
+ .imgCName{
+   padding:0
+ }
+ .achievements h5 {
+  
+  font-size: 12px;
+  
+}
+}

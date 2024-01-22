@@ -1,0 +1,100 @@
+.formContainer{
+    padding:0.6em 1.2em;
+    position:relative;
+    display:flex;
+    width:50%;
+    max-width:1000px;
+    transition:width 0.6s ease-in-out;
+}
+
+
+@media only screen and (min-width:1000px)
+{
+    .formContainer{
+        width:100%;
+        padding:0
+    }
+    
+}
+@media only screen and (max-width:1000px)
+{
+    .formContainer{
+        width:100%;
+        flex-direction: column;
+    }
+    
+}
+
+
+.formlogo{
+    width: 4.6em;
+}
+
+.logo{
+    width:100%;
+    height:auto
+}
+
+.layout{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    grid-row-gap: 2em;
+    row-gap: 0.7em;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitButton{
+    min-width: 30%;
+    background-color: #7694ff !important;
+    border-radius: 57px !important;
+    box-shadow: none !important;
+    color:white!important;
+    padding: 6px 15px!important;
+    display:flex!important;
+    flex-direction: center!important;
+    justify-content: center!important;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right:5px
+}
+
+.submitButton span{
+    font-size:1.3em;
+    text-transform:none; 
+}
+
+
+*{
+    text-transform:none; 
+}
+
+
+
+.loginPoster{
+    display: flex;
+    background-color: #7694ff;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: -10px;
+    border-end-end-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: 2s;
+}
+
+
+@media only screen and (max-width:1000px)
+{
+    .loginPoster{
+        display:none
+    }
+    
+}
+

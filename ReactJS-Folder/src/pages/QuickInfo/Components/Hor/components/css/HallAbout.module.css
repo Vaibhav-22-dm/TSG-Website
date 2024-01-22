@@ -1,0 +1,373 @@
+.hallAboutContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.hallAboutLeftBox{
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.hallAboutRightBox{
+    width: 24.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.hallAboutBox, .hallAccomodationBox, .hallAmenitiesBox, .hallMessMenuBox{
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.hallContactBox{
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+}
+
+.hallAboutInnerBox, .hallAccomodationInnerBox, .hallAmenitiesInnerBox, .hallMessMenuInnerBox{
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+    border-radius: 20px;
+}
+
+.hallBoxHeader{  
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+
+.hallAboutReadMore{
+    width: 100%;
+    padding: 25px 0 0 0;
+    text-align: center;
+}
+
+.hallReadMoreBtn{
+    background-color: #7694FF;
+    border-radius: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    padding: 5px 20px;
+    border: none;
+}
+
+.hallAmenitiesList{
+    width: 90%;
+}
+
+.hallAmenitiesList ul{
+    width: 100%;
+}
+
+.hallAmenitiesList li{
+    list-style: disc !important;
+}
+
+.hallAccomodationTableBox, .hallMessMenuTableBox{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hallMessMenuTableBox{
+    overflow: auto;
+    padding: 10px;
+}
+
+.hallAccomodationTable, .hallMessMenuTable{
+    width: 90%;
+}
+
+.hallAccomodationTable tr td:nth-child(2){
+    padding-left: 20px;
+    border-left: 2px solid #9C9C9C;
+}
+
+.hallAccomodationTable tr td:nth-child(1){
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.hallAccomodationTable tr td:nth-child(1) span:nth-child(1){
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #7694FF;
+}
+
+.hallAccomodationTable tr td:nth-child(1) span:nth-child(2){
+    padding-left: 10px;
+}
+
+.hallMessMenuTable td{
+    padding: 10px;
+    text-align: center;
+}
+
+.hallMessMenuTable tbody tr td:nth-child(1){
+    background-color: #5576EB;
+    color: white;
+}
+
+.hallMessMenuTable tbody tr:nth-child(7) td:nth-child(1){
+    border-bottom-left-radius: 10px;
+}
+
+.hallMessMenuTable tbody tr td:nth-child(n+2){
+    border-right: 2px solid #455A64;
+    border-bottom: 2px solid #455A64;
+}
+
+.hallMessMenuTable tbody tr:nth-child(7) td:nth-child(5){
+    border-bottom-right-radius: 10px;
+}
+
+.hallMessMenuTable thead tr th{
+    font-weight: normal;
+    padding: 5px;
+    background-color: #5576EB;
+    color: white;
+}
+
+.hallMessMenuTable thead tr th:nth-child(1){
+    border-top-left-radius: 10px;
+}
+
+.hallMessMenuTable thead tr th:nth-child(5){
+    border-top-right-radius: 10px;
+}
+
+.hallContactBox{
+    padding: 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hallContactInnerBox{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+    border-radius: 20px;
+    max-width: 370px;
+}
+
+.hallContactCard, .hallContactEmailBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+}
+
+.hallInchargeCard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    max-width: 370px;
+}
+
+/* .hallInchargeCard:nth-child(2), .hallInchargeCard:nth-child(3){
+    margin-top: 20px;
+} */
+
+.hallInchargeInnerCard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+    border-radius: 20px;
+    padding: 20px;
+    background: white;
+}
+
+.hallInchargeProfilePicBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.hallInchargeProfileCircle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.hallInchargeDetails{
+    padding: 0px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hallInchargeName{
+    padding: 10px 0px;
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 2px solid gray;
+}
+
+.hallInchargeContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px 0px;
+    color: #5576EB;
+}
+
+.hallInchargeEmailBox, .hallInchargePhoneBox{
+    width: 100%;
+    display: flex;
+    padding-bottom: 5px;
+    color: #9C9C9C;
+}
+
+.hallInchargeEmailContent, .hallInchargePhoneContent{
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width:1200px) {
+    .hallAboutLeftBox{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hallAboutRightBox{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .hallContactBox{
+        width: 24%;
+    }
+
+    .hallInchargeCard{
+        width: 24%;
+    }
+
+    .hallContactInnerBox{
+        padding: 15px;
+    } 
+
+    .hallInchargeInnerCard{
+        padding: 10px;
+    }
+
+    .hallInchargeDetails{
+        padding: 0px 10px
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+
+    .hallAboutText{
+        font-size: 15px;
+    }
+
+    .hallAboutContainer td, .hallAboutContainer li{
+        font-size: 15px;
+    }
+
+    .hallContactBox{
+        width: 49%;
+    }
+
+    .hallInchargeCard{
+        width: 49%;
+    }
+
+    .hallBoxHeader{
+        font-size: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width: 500px) {
+
+    .hallAccomodationTable{
+        width: 100%;
+    }
+
+    .hallAboutRightBox{
+        justify-content: center;
+    }
+
+    .hallContactBox{
+        width: 95%;
+    }
+
+    .hallInchargeCard{
+        width: 95%;
+    }
+
+    .hallInchargeInnerCard, .hallContactInnerBox{
+        padding: 20px;
+    }
+
+    .hallAboutInnerBox, .hallAccomodationInnerBox, .hallAmenitiesInnerBox, .hallMessMenuInnerBox, .hallContactInnerBox{
+        padding: 20px;
+    }
+
+    .hallInchargePhoneBox, .hallInchargeEmailBox{
+        font-size: 15px;
+    }
+
+    .hallContactOfficePhoneBox{
+        font-size: 15px;
+    }
+
+    .hallContactCardPhoneIcon, .hallContactCardEmailIcon, .hallInchargeEmailIcon, .hallInchargePhoneIcon{
+        font-size: 20px !important;
+    }
+
+    .hallAmenitiesList ul{
+        columns: 1 !important;
+    }
+}

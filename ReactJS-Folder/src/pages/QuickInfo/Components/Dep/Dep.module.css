@@ -1,0 +1,153 @@
+.landingLayout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 91%;
+    overflow-x: hidden;
+    margin: auto;
+    padding: 15px;
+}
+
+.eventSvg{
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    display: block;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+}
+
+.eventSvgMobile{
+    display: none;
+}
+
+.deptCardsContainer{
+    width: 90%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    margin: auto;
+    max-width: 1360px;
+}
+
+.deptCard{
+    width: 33.33%;
+    padding: 10px;
+    height: 240px;
+    min-height: 100px;
+    /* min-width: 300px; */
+}
+
+.deptInnerCard{
+    width: 100%;
+    background-size: 100% !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    border-radius: 20px;
+    height: 100%;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+@keyframes zoomBg {
+
+    50%{
+        background-size: 130% !important
+        ;
+    }
+}
+
+.deptInnerCard:hover{
+    background-size: 130% !important;
+    /* animation: zoomBg 0.5s ease-in-out; */
+}
+
+
+
+.deptCardOverlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(60, 60, 60, 0.68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* .deptInnerCard:hover .deptCardOverlay{ */
+    /* background: -webkit-linear-gradient(0deg, #8490ffd7 0%, #62bcfcd7 100%); */
+    /* opacity: 0.8; */
+/* } */
+
+
+@media (min-width: 600px) and (max-width:900px){
+    .deptCard{
+        height: 180px;
+        padding: 5px;
+    }
+
+    .deptCardOverlay{
+        font-size: 17px;;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+
+    .landingLayout{
+        width: 100%;
+    }
+
+    .eventSvg{
+        width: 120%;
+        min-width: 200px;
+        transform: scale(1.07);
+        display: none;
+    }
+
+    .eventSvgMobile{
+        display: flex;
+        width: 100%;
+    }
+
+    .deptCard{
+        width: 50%;
+        height: 110px;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .deptCardOverlay{
+        padding: 5px;
+        font-size: 13px;
+        border-radius: 15px;
+    }
+
+    .deptInnerCard{
+        border-radius: 15px;
+    }
+
+    .deptCardsContainer{
+        width: 95%;
+    }
+    
+}
+
+
+@media screen and (max-width:430px){
+    .deptTabs{
+        flex-direction: column;
+    }
+
+    .deptTab{
+        width: 100%;
+    }
+    
+}

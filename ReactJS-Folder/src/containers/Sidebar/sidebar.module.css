@@ -1,0 +1,91 @@
+.sidebar {
+  width: 54px;
+  /* width: 240px; */
+  transition: all 0.3s ease;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+}
+.navlogo {
+  width: 3rem;
+  height: auto;
+  border-radius: 50%;
+  background-color: white;
+  margin: 1rem auto;
+  display: block;
+}
+.topblue {
+  background-color: #7694ff;
+  flex-grow: 1;
+}
+.icon {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* padding: 15px; */
+  color: #000 !important;
+}
+.jfe {
+  justify-content: flex-end;
+}
+.pad15 {
+  padding: 15px;
+}
+.icon:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+}
+.activeicon {
+  background-color: #ffffff;
+}
+/* .muiappbar{
+    /* background-color: transparent !important;
+} */
+.dispnone {
+  display: none;
+}
+.dflex {
+  display: flex;
+}
+.jcen {
+  justify-content: center;
+}
+.acen {
+  align-items: center;
+}
+.icons {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.tabtitle {
+  font-weight: bold;
+  padding-left: 20px;
+  /* height: 54px; */
+}
+.navlogo:hover {
+  cursor: pointer;
+}
+@media only screen and (max-height: 600px) {
+  .pad15 {
+    padding: 10px;
+  }
+  .icons {
+    padding-left: 5px;
+  }
+}
+@media only screen and (max-height: 500px) {
+  .pad15 {
+    padding: 8px;
+  }
+}
+@media only screen and (max-height: 400px) {
+  .navlogo {
+    display: none;
+  }
+}

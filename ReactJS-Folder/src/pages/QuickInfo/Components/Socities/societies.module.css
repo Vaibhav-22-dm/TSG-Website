@@ -1,0 +1,189 @@
+.landingLayout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 91%;
+    overflow-x: hidden;
+    margin: auto;
+    padding: 15px;
+}
+
+.eventSvg{
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    display: block;
+}
+  
+.eventSvgMobile{
+    display: none;
+}
+
+.societyTabsContainer{
+    width: 90%;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin: 15px auto;
+    border-radius: 10px;
+    max-width: 1360px;
+}
+
+.societyTabs{
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.societyTab{
+    border: none;
+    padding: 10px;
+    width: 33.33%;
+    font-size: 20px;
+}
+
+.societyTab:hover{
+    cursor: pointer;
+}
+
+.socCardsContainer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    margin: auto;
+    max-width: 1360px;
+}
+
+.socCard{
+    width: 33%;
+    padding: 10px;
+    height: 240px;
+    min-height: 100px;
+    /* min-width: 300px; */
+}
+
+.socInnerCard{
+    width: 100%;
+    background-size: 100% !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    border-radius: 20px;
+    height: 100%;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+@keyframes zoomBg {
+
+    50%{
+        background-size: 130% !important
+        ;
+    }
+}
+
+.socInnerCard:hover{
+    background-size: 130% !important;
+    /* animation: zoomBg 0.5s ease-in-out; */
+}
+
+
+
+.socCardOverlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(60, 60, 60, 0.68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* .socInnerCard:hover .socCardOverlay{ */
+    /* background: -webkit-linear-gradient(0deg, #8490ffd7 0%, #62bcfcd7 100%); */
+    /* opacity: 0.8; */
+/* } */
+
+
+@media (min-width: 600px) and (max-width:900px){
+    .socCard{
+        height: 180px;
+        padding: 5px;
+    }
+
+    .socCardOverlay{
+        font-size: 17px;;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+
+    .landingLayout{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .eventSvg{
+        width: 100vw;
+        min-width: 200px;
+        display: none;
+    }
+  
+    .eventSvgMobile{
+      display: flex;
+      width: 100%;
+    }
+
+    .societyTab{
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .socCard{
+        width: 50%;
+        height: 110px;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .socCardOverlay{
+        padding: 5px;
+        font-size: 13px;
+        border-radius: 15px;
+    }
+
+    .socInnerCard{
+        border-radius: 15px;
+    }
+
+    .socCardsContainer{
+        width: 95%;
+    }
+    
+}
+
+
+@media screen and (max-width:430px){
+    .societyTabs{
+        flex-direction: column;
+    }
+
+    .societyTab{
+        width: 100%;
+    }
+    
+}

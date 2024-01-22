@@ -1,0 +1,160 @@
+.billHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    text-transform: none !important;
+    width: 92%;
+    flex-wrap: wrap;
+} 
+
+.billHeader>h1{
+    margin-top: 10px;
+}
+
+.buttonContainer{
+    display: flex;
+}
+
+.billButton{
+    background-color: #7694ff;
+    border-radius: 57px;
+    box-shadow: none;
+    text-transform: none;
+    /* display: none; */
+    border: none;
+    padding: 5px 15px;
+    color: white;
+    transition: all 0.5s ease;
+    margin-right: 10px;
+}
+
+.backButton{
+    background: #7694ff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 10px;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
+
+.billButton:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.billPortalContainer{
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+    position: relative;
+    z-index: 5;
+    /* padding: 10px; */
+} 
+
+.statusAndTableContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.billFormContainer{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .billFormContainer{
+        display: none;
+    }
+
+    .statusAndTableContainer{
+        width: 100%;
+    }
+
+    .billButton{
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    .billButton{
+        position: absolute;
+        top: 12px;
+        right: 80px;
+    }
+
+    .billHeader h1{
+        font-size: 20px;
+    }
+    
+}
+
+.overlayContainer{
+    display: flex;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.43);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+}
+
+.overlayForm{
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+    height: 96%;
+    overflow: scroll;
+}
+
+.closeButton{
+    padding: 10px;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+    .overlayForm{
+        max-width: 450px;
+    }
+}
+
+.overlayForm::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+
+.overlayForm::-webkit-scrollbar-thumb {
+    background: #7694ff;
+    border-radius: 10px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.overlayForm::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.overlayForm {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
+
+  

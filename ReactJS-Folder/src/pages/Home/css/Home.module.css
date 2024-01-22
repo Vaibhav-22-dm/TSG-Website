@@ -1,0 +1,211 @@
+.HomePageLayout {
+  overflow-x: hidden;
+}
+
+.HomeText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.25rem;
+}
+
+.akgpText {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.HomeHeaderLayout {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin: 0 3em;
+}
+.LoginButton {
+  width: 100%;
+  background-color: #7694ff !important;
+  border-radius: 57px !important;
+  box-shadow: none !important;
+}
+.LoginButton span {
+  font-size: 1.3em;
+  text-transform: none;
+}
+.CarouselLayout {
+  margin: 0 3.1em;
+  box-shadow: none !important;
+  background-color: none !important;
+  /* height: 24em; */
+  /* max-width:1400px; */
+}
+.CarouselLayoutp {
+  margin: 0 0;
+  box-shadow: none !important;
+  background-color: none !important;
+  /* height: 24em; */
+  /* max-width:1400px; */
+}
+@media only screen and (max-width:900px) {
+  .CarouselLayout {
+    margin: 0 1em;
+  }
+  .CarouselLayoutp {
+    margin: 0 1em;
+  }
+}
+  
+
+.contentLayout {
+  display: flex;
+  grid-column-gap: 1em;
+  justify-content: flex-start;
+  margin-top: 3em;
+  padding: 0 2em;
+}
+.cardslayout {
+  flex: 1 1.5;
+}
+
+@media only screen and (max-width: 1461px) {
+  .contentLayout {
+    margin: 3em 3em 3em 2.2em;
+    padding: 0px;
+  }
+}
+
+.cardsLayout {
+  background: #ffffff;
+  box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+  border-radius: 20px;
+  padding: 1em 2.5em;
+  flex: 1;
+}
+
+.about {
+  flex-grow: 2;
+}
+.cardNewsText {
+  line-height: 37px;
+  margin-bottom: -0.3em;
+}
+.alumniGallery {
+  margin-right: 2em;
+}
+.calendarLayout {
+  display: flex;
+  margin: 4.5em;
+  column-gap: 2em;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 500px) {
+  .CarouselLayout {
+    margin: 0 0em;
+  }
+  .MuiSvgIcon-root {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .contentLayout {
+    flex-direction: column;
+    margin: 1em;
+    row-gap: 2em;
+  }
+  .calendarLayout {
+    flex-direction: column;
+    margin: 3em;
+    column-gap: 2em;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .calendarLayout {
+    flex-direction: column;
+    margin: 3em;
+    column-gap: 2em;
+  }
+}
+/* Public Home Css */
+
+.rightNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  column-gap: 3em;
+  align-items: center;
+}
+.rightNav ul {
+  display: flex;
+  column-gap: 2.5em;
+}
+
+.rightNav li a {
+  display: block;
+  /* width: 60px; */
+  color: #3c3c3c;
+  white-space: nowrap;
+}
+.rightNav a {
+  display: block;
+  /* width: 60px; */
+  color: #3c3c3cf1;
+  white-space: nowrap;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.rightNav li {
+  display: inline;
+}
+.navBarLayout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 1em; */
+  padding: 0em 1em;
+  margin-bottom: -1em;
+  background-image: linear-gradient(#e5e9f8, #f5f6fa, #f2f2f2);
+  z-index: 5;
+}
+.navlogo {
+  width: 5em;
+  height: auto;
+}
+@media only screen and (max-width: 1060px) {
+  .rightNav ul {
+    column-gap: 1.5em;
+  }
+}
+@media only screen and (max-width: 964px) {
+  .rightNav {
+    column-gap: 1.8em;
+  }
+}
+/* @media only screen and (min-width: 1500px) {
+  ** {
+    zoom: 3;
+  }
+} */
+/* @media only screen and (min-width: 1740px) {
+  * {
+    zoom: 1.04;
+  }
+} */
+
+@media screen and (max-width:780px) {
+  .calendarLayout{
+    margin: 1rem;
+  }
+  
+}
+
+
+@media screen and (max-width:700px) {
+.paraabout{
+  font-size: 1.1rem !important;
+}
+}
+  

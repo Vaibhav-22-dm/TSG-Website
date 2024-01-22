@@ -1,0 +1,46 @@
+.outermostwrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.iconscontainer {
+  background-color: white;
+  width: 80%;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.iconwrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* color: blue; */
+  height: 100%;
+  border-radius: 7px;
+  padding: 7px;
+}
+.navname {
+  font-size: 0.7rem;
+  width: 4rem;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 1.2;
+  font-weight: bold;
+  color: black;
+}
+.icon {
+  /* stroke: aqua;
+  fill: aqua; */
+}
+.activeicon {
+  stroke: white;
+  fill: white;
+}
+.bluebg {
+  background-color: #7694ff;
+}
+.whitetxt {
+  color: white;
+}

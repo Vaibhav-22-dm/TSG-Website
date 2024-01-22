@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.container{
+    background-color:white;
+    border-radius: 20px;
+    padding-left:30px;
+    padding-right:30px;
+    width:100%;
+    padding-top:30px;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+    
+    padding-bottom:30px;
+   
+}
+.semester, .course, .subject{
+
+font-family:"Poppins";
+}
+.update{
+    font-family:"Poppins";
+    font-size:24px;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+.semesterdrop, .coursedrop, .subjectdrop{
+    height:40px;
+    background-color: rgba(242, 242, 242, 1);
+    font-family:"Poppins";
+    width:100%;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-left:10px;
+    border:0px;
+    outline:0px;
+    margin-bottom:6px;
+    
+
+}
+
+
+
+.addsubject{
+    height:45px;
+    background-color: rgba(242, 242, 242, 1);
+    font-family:"Poppins";
+    width:100%;
+    border-radius: 5px;
+    margin-bottom:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    
+}
+.addsub{
+    color:rgba(184, 177, 177, 1);
+    font-family:"Poppins";
+}
+.plus{
+    color:rgba(156, 156, 156, 1);
+    font-size:30px;
+    margin-right:8px;
+    font-family:"Poppins";
+}
+
+
+.exdrop{
+    position:absolute;
+    pointer-events: none;
+  }
+  .icon{
+    transform: translate(-36px,6px);
+     position:absolute;
+     width:26px;
+   }
+   .link{
+    height:40px;
+    background-color: rgba(242, 242, 242, 1);
+    font-family:"Poppins";
+    width:100%;
+    border-radius: 5px;
+    border:0px;
+    outline:0px;
+    margin-bottom:6px;
+    
+    padding-left:10px;
+   }
+   ::-webkit-input-placeholder { /* Edge */
+    color:rgba(184, 177, 177, 1);
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:rgba(184, 177, 177, 1);
+  }
+  
+  ::placeholder {
+    color:rgba(184, 177, 177, 1);
+  }
+  .add{
+    font-family:"Poppins";
+   
+  }
+  .updatebutton{
+    font-family:"Poppins";
+    width:120px;
+    border-radius: 50px;
+    background-color: rgba(118, 148, 255, 1);
+    color:white;
+    height:40px;
+    border:0px;
+    outline:0px;
+    font-size: 16px;
+
+  }
+  .button{
+      text-align:center;
+      margin-top:15px;
+  }
+  @media (max-width:1120px)
+  {
+   .update{
+    font-size:20px;
+   }
+  }
+  @media (max-width:500px)
+{
+.container{
+padding-left:15px;
+padding-right:15px;}
+}
+  @media (max-width:338px)
+{
+.update{
+  font-size:18px;
+}
+
+}

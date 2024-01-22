@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.container {
+  background-color: white;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  color:black;
+  border-radius: 8px;
+  border: 2px solid #F2F2F2;
+}
+.container:hover {
+  box-shadow: 0px 0px 8px rgba(118, 148, 255, 0.25);
+}
+.image {
+  height: 196px;
+  width:30%;
+  border-radius:8px 0px 0px 8px ;
+}
+.data {
+ 
+  width:70%;
+  height: 200px;
+}
+.heading {
+  font-family: "Poppins";
+  width: 90%;
+  border-bottom: 1.5px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+
+  font-weight: bold;
+}
+
+.name {
+  font-family: "Poppins";
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.tags {
+  border-radius: 20px;
+  display: inline-block;
+  border: 1.5px solid rgba(118, 148, 255, 1);
+  color: rgba(118, 148, 255, 1);
+  width: 110px;
+  text-align: center;
+}
+.wrap {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.time {
+  display: flex;
+  font-family: "Poppins";
+  float: right;
+}
+.timevalue {
+  margin-left: 6px;
+  font-family: "Poppins";
+}
+.content{
+  height:140px;
+}
+
+
+@media (max-width: 1125px) {
+  .container {
+    height: 150px;
+  }
+  .image {
+    height: 146px;
+  }
+  .data{
+    height:150px;
+  }
+  .wrap {
+    margin-top: 6px;
+    width: 90%;
+  }
+  .heading {
+    width: 90%;
+  }
+  .name {
+    width: 90%;
+    margin-top:4px;
+  }
+  .content{
+    height:100px;
+  }
+}
+@media (max-width: 1020px) {
+  .heading {
+    font-size: 14px;
+  }
+  .name {
+    font-size: 14px;
+  }
+  
+  .tags {
+    font-size: 14px;
+    width: 110px;
+  }
+  .container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .timevalue {
+    font-size: 14px;
+  }
+}
+@media (max-width:900px)
+{
+  .image{
+    width:23%;
+
+  }
+  .data{
+    width:77%;
+  }
+}
+@media(max-width:700px)
+{
+  .image{
+    width:30%;
+
+  }
+  .data{
+    width:70%;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    height: 130px;
+  }
+  .image {
+    height: 126px;
+  }
+  .heading {
+    margin-top: 5px;
+  }
+  .content{
+    height:88px;
+  }
+  .data{
+    height:130px;
+  }
+
+  .tags {
+    border-radius: 10px;
+
+    font-size: 12px;
+
+    width: 88px;
+  }
+
+  .timevalue {
+    font-size: 14px;
+  }
+  .icon {
+    width: 20px;
+  }
+ 
+  .wrap {
+    margin-top: 4px;
+  }
+}
+@media (max-width: 450px) {
+  
+  .heading {
+    font-size: 12px;
+  }
+  .name {
+    font-size: 12px;
+  }
+  
+  .tags {
+    font-size: 12px;
+  }
+  .icon {
+    width: 15px;
+  }
+  .timevalue {
+    font-size: 12px;
+  }
+ .time{
+     padding-top:3px;
+ }
+ .container{
+   margin-bottom:20px;
+ }
+}
+@media (max-width: 380px) {
+  
+  .timevalue{
+      margin-left:3px;
+  }
+}
+@media (max-width: 340px) {
+ .image{
+   height:106px;
+ }
+  .container {
+    height: 110px;
+
+  }
+  .data{
+    height:110px;
+  }
+  .name{
+   
+    font-size:10px;
+  }
+  
+  .content{
+    height:70px;
+  }
+  .time{
+    transform: translateY(3px);
+  }
+  .tags{
+    font-size:10px;
+    width:80px;
+  }
+  .timevalue{
+    font-size: 10px;
+  }
+  .icon{
+    width:15px;
+  }
+  .timevalue{
+    margin-left:1px;
+}
+}
+@media(max-width:320px){
+  .heading{
+    font-size: 10px;
+  }
+}

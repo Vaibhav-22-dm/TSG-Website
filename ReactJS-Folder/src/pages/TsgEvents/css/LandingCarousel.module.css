@@ -1,0 +1,21 @@
+.contentLayout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .welcomeSvg {
+    width: 100%;
+    height: 13em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    max-width:1400px;
+  }
+  @media only screen and (max-width: 500px) {
+    .welcomeSvg {
+      width: 90%;
+      height: 16em;
+    }
+  }

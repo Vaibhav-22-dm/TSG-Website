@@ -1,0 +1,338 @@
+.departmentAboutContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.departmentAboutLeftBox{
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.departmentAboutRightBox{
+    width: 24.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.departmentAboutBox, .departmentHODBox, .departmentAchievementsBox, .departmentLabsBox{
+    width: 100%;
+    padding: 10px 0px;
+}
+
+
+.departmentAboutInnerBox, .departmentHODInnerBox, .departmentAchievementsInnerBox, .departmentLabsInnerBox{
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+    border-radius: 20px;
+    transition: all 0.5s ease
+}
+
+.departmentAchievementsList{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.departmentAchievementsListItem{
+    display: flex;
+    padding: 5px 0;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.departmentAchievementsBullets{
+    height: 100%;
+    display: flex;
+    padding-top: 5px;
+}
+
+.departmentAchievementsBulletsCircle{
+    width: 10px;
+    height: 10px;
+    background-color: #7694FF;
+    border-radius: 50%;
+}
+
+.departmentAchievementsText{
+    /* width: 85%; */
+    padding: 0px 0px 0px 15px;
+}
+
+
+
+
+
+.departmentBoxHeader{  
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+
+.departmentAboutReadMore{
+    width: 100%;
+    padding: 25px 0 0 0;
+    text-align: center;
+}
+
+.departmentReadMoreBtn{
+    background-color: #7694FF;
+    border-radius: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    padding: 5px 20px;
+    border: none;
+}
+
+
+
+.departmentHODCard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.departmentLabsList{
+    width: 100%;
+}
+
+.departmentLabsList ul{
+    margin: 0;
+}
+
+.departmentLabsList li{
+    list-style: disc !important;
+}
+
+/* .departmentHODCard:nth-child(2), .departmentHODCard:nth-child(3){
+    margin-top: 20px;
+} */
+
+.departmentHODInnerCard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+    border-radius: 20px;
+    padding: 20px;
+    background: white;
+}
+
+.departmentHODProfilePicBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.departmentHODProfileCircle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.departmentHODDetails{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.departmentHODName{
+    padding: 10px 0px;
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 2px solid gray;
+    text-align: center;
+}
+
+.departmentHODContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px 0px;
+    color: #5576EB;
+}
+
+.departmentHODEmailBox, .departmentHODPhoneBox{
+    width: 100%;
+    display: flex;
+    padding-bottom: 5px;
+    color: #9C9C9C;
+}
+
+.departmentHODEmailContent, .departmentHODPhoneContent{
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.departmentHODMessageBox{
+    width: 100%;
+}
+
+.departmentHODMessageHeader{
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.departmentHODMessageContent{
+    text-align: justify;
+}
+
+.departmentHODMessageContent{
+    display: inline-block;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width:1200px) {
+    .departmentAboutLeftBox{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .departmentAboutRightBox{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .departmentHODInnerBox{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .departmentHODInnerBox .departmentBoxHeader{
+        width: 100%;
+    }
+
+    .departmentHODCard{
+        width: 30%;
+    }
+
+    .departmentHODMessageBox{
+        width: 67%;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+
+    .departmentAboutText{
+        font-size: 15px;
+    }
+
+    .departmentBoxHeader{
+        font-size: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width:900px) {
+    
+    .departmentHODInnerBox{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .departmentHODInnerBox .departmentBoxHeader{
+        width: 100%;
+    }
+
+    .departmentHODCard{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .departmentHODProfilePicBox{
+        width: 30%;
+    }
+
+    .departmentHODDetails{
+        width: 67%;
+    }
+
+    .departmentHODMessageBox{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .departmentAboutRightBox{
+        justify-content: center;
+    }
+
+    .departmentAboutInnerBox{
+        padding: 20px;
+    }
+
+    .departmentHODEmailIcon, .departmentHODPhoneIcon{
+        font-size: 20px !important;
+    }
+
+    .departmentLabsList ul{
+        columns: 1 !important;
+    }
+
+    .departmentHODCard{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .departmentHODProfilePicBox{
+        width: 100%;
+    }
+
+    .departmentHODDetails{
+        width: 100%;
+    }
+
+    .departmentAchievementsBulletsCircle{
+        width: 20px;
+        height: 20px;
+    }
+
+}

@@ -1,0 +1,150 @@
+.formContainer{
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+}
+
+.formHeader{
+    margin: 0;
+    padding: 15px;
+}
+
+.billForm{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+.formInfoBox{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    padding: 10px 0;
+}
+
+.formInfo{
+    background: #BBCAFF;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+.formLabel{
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.formGroup select{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background: #F2F2F2;
+}
+
+.formGroup select option{
+    padding: 10px;
+}
+
+.formGroup input{
+    width: 100%;
+    background: #F2F2F2;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.formGroup>input[type="file"]{
+    display: none;
+}
+
+.formGroup .formLabel:nth-child(2){
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formLabelText{
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.formLabelImage{
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background: #F2F2F2;
+}
+
+.formGroup textarea{
+    width: 100%;
+    background: #F2F2F2;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.submitButton{
+    background-color: #7694ff !important;
+    border-radius: 57px !important;
+    box-shadow: none !important;
+    text-transform: none !important;
+    border: none;
+    color: white;
+    width: 100px;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .formContainer{
+        padding: 0px 10px;
+    }
+
+    .submitButton{
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    .formGroup{
+        padding: 10px
+    }
+
+    .formInfo{
+        padding: 10px;
+    }
+
+    .billForm{
+        padding: 0px 10px;
+    }
+
+    .formInfo, .formLabel{
+        font-size: 15px;
+    }
+
+    .formInfoBottomLine{
+        font-size: 15px;
+    }
+
+    .formGroup select, .formGroup option, .formGroup textarea{
+        font-size: 15px;
+    }
+
+    .formHeader{
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+}
+

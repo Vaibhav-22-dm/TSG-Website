@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+.name{
+  position :relative;
+  font-size:18px;
+  top:20px;
+  padding-left: 25px;
+  font-family: Poppins;
+ 
+}
+.graph{
+  position :relative;
+  top:-20px;
+}
+.hidden::-webkit-scrollbar {
+  width: 0;
+  height:0;
+}
+
+@media (max-width: 750px) {
+  .hidden {
+    overflow-x: auto;
+  }
+
+  .scroll {
+    width: 120vw;
+  }
+}
+@media (max-width: 570px) {
+  .hidden {
+    overflow-x: auto;
+  }
+
+  .scroll {
+    width: 150vw;
+  }
+}
+@media (max-width: 430px) {
+    .hidden {
+      overflow-x: auto;
+    }
+  
+    .scroll {
+      width: 200vw;
+    }
+  }
+  @media (max-width: 336px) {
+    .hidden {
+      overflow-x: auto;
+     
+    }
+  
+    .scroll {
+      width: 250vw;
+    }
+  }

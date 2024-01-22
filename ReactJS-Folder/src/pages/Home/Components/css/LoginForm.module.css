@@ -1,0 +1,66 @@
+.formContainer{
+    padding:0.6em 1.2em;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    width:50%
+}
+@media only screen and (max-width:1000px)
+{
+    .formContainer{
+        width:100%
+    }
+    
+}
+.formlogo{
+    width: 4.6em;
+    height: 23px;
+    margin: -29px 0 0px -29px;
+}
+
+.logo{
+    width:100%;
+    height:auto
+}
+
+.layout{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    grid-row-gap: 2em;
+    row-gap: 0.7em;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitButton{
+    min-width: 30%;
+    background-color: #7694ff !important;
+    border-radius: 57px !important;
+    box-shadow: none !important;
+    color:white!important;
+    padding: 6px 15px!important;
+    display:flex!important;
+    flex-direction: center!important;
+    justify-content: center!important;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right:5px
+}
+
+.submitButton span{
+    font-size:1.3em;
+    text-transform:none; 
+}
+@media only screen and (max-width:600px)
+{
+    
+}
+
+*{
+    text-transform:none; 
+}

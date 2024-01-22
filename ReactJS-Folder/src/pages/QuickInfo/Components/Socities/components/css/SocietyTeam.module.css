@@ -1,0 +1,122 @@
+.societyTeamContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    max-width: 1360px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.societyTeamBox{
+    width: 33.33%;
+    padding: 5px;
+}
+
+.societyTeamCard{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+    max-width: 430px;
+}
+
+.societyTeamProfilePic{
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.societyTeamProfilePicCircle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.societyTeamCardDetails{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.societyTeamMemberName{
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.societyTeamMemberPosition{
+    font-size: 17px;
+    padding-top: 5px;
+    color: #5576EB;
+}
+
+.societyTeamSocialLinks{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.societySocialIcon{
+    color: #5576EB !important;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .societyTeamProfilePicCircle{
+        width: 60px;
+        height: 60px;
+    }
+
+    .societyTeamMemberName{
+        font-size: 17px;
+    }
+
+    .societyTeamMemberPosition{
+        font-size: 15px;
+    }
+
+    .societyTeamProfilePic{
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:900px){
+
+    .societyTeamProfilePicCircle{
+        width: 65px;
+        height: 65px;
+    }
+
+    .societyTeamBox{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width:900px){
+
+    .societyTeamContainer{
+        align-items: center;
+    }
+    
+    .societyTeamBox{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+

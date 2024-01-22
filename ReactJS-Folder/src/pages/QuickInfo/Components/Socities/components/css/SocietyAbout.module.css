@@ -1,0 +1,351 @@
+.societyAboutContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1360px;
+    padding-bottom: 20px;
+}
+
+.societyAboutBox{
+    width: 71%;
+}
+
+.societyAbout{
+    border-radius: 20px;
+    background: white;
+    padding: 25px 30px;
+    width: 100%;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+}
+
+.societyAboutHeader{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.societyReadMoreBox{
+    width: 100%;
+    padding: 25px 0 0 0;
+    text-align: center;
+}
+
+.societyReadMoreBtn{
+    background-color: #7694FF;
+    border-radius: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    padding: 5px 20px;
+    border: none;
+}
+
+.societyReadMoreBtn:hover{
+    box-shadow: 0 0 18px rgb(118 148 255/25%);
+    cursor: pointer;
+}
+
+.societyContactBox{
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+}
+
+.societyContact{
+    border-radius: 20px;
+    background: white;
+    padding: 25px 30px;
+    width: 100%;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+}
+
+.societyContactHeader{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.societyContactDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.societyContactPhone{
+    display: flex;
+    width: 100%;
+    padding: 10px 0 0 0;
+    align-items: center;
+}
+
+.societyContactPhone span{
+    padding: 5px
+}
+
+.societyContactLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.societyContactSocialIcons{
+    display: flex;
+    padding: 10px 0 0 5px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.societySocialLink{
+    padding-right: 10px;
+    display: flex;
+}
+
+.societyFb{
+    color: #7694FF;
+    font-size: 30px !important;;
+}
+
+.societyFounders{
+    border-radius: 20px;
+    background: white;
+    padding: 25px 30px;
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+}
+
+.societyFoundersHeader{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.societyFoundersCardsBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.societyFoundersCard{
+    width: 33%;
+    padding: 10px;
+}
+
+.societyFounder{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid #C4C4C4;
+}
+
+.societyFounder:hover{ 
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+    border: 0;
+}
+
+.societyFounderPic{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.societyFounderCircle{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.societyFounderText{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.societyFounderName{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom:  1px solid #9C9C9C;
+}
+
+.societyFounderPosition{
+    padding: 5px;
+    color: #7694FF;
+}
+
+.societyFounderSocialIcons{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.societyEvents{
+    border-radius: 20px;
+    background: white;
+    padding: 25px 30px;
+    width: 100%;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+    margin-top: 20px;
+}
+
+.societyEventsBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.societyEvent{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.societyEvent:hover{
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+    cursor: pointer;
+}
+
+.societyEventTitle{
+    padding: 5px
+}
+
+.societyEventDate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F2F2F2;
+    padding: 5px;
+    border-radius: 10px;
+    min-width: 70px;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+
+    .societyAboutContainer{
+        flex-direction: column;
+    }
+
+    .societyAboutBox{
+        width: 100%;
+    }
+
+    .societyFounderCircle{
+        width: 100px;
+        height: 100px;
+    }
+
+    .societyContactBox{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .societyContact{
+        width: 33%;
+        margin-top: 20px;
+    }
+
+    .societyEvents{
+        width: 63%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .societyContact{
+        width: 36%;
+        margin-top: 20px;
+    }
+
+    .societyEvents{
+        width: 62%;
+    }
+
+    .societyAbout, .societyFounders, .societyContact, .societyEvents{
+        padding: 15px 20px;
+    }
+
+    .societyFounderName{
+        font-size: 17px;
+    }
+
+    .societyAboutText, .societyEventTitle, .societyTaglineText{
+        font-size: 15px;
+    }
+
+    .societyAboutHeader, .societyContactHeader, .societyFoundersHeader{
+        font-size: 20px;
+    }
+
+    .societyFb{
+        font-size: 25px !important;
+    }
+
+    .societyFounderCircle{
+        width: 70px;
+        height: 70px;
+    }
+
+    .societyFounder{
+        padding: 10px 15px;
+    }
+
+    .societyFoundersCard{
+        padding: 10px 5px;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+
+    .societyContactBox, .societyFoundersCardsBox{
+        flex-direction: column;
+    }
+
+    .societyContact, .societyEvents, .societyFoundersCard{
+        width: 100%;
+    }
+
+    .societyFounder{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px;
+    }
+
+    .societyFounderPic{
+        width: 33%;
+    }
+
+    .societyFounderText{
+        width: 65%;
+        align-items: flex-start;
+    }
+
+    .societyFounderName{
+        text-align: left;
+    }
+    
+}

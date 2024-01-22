@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.wrap{
+    background-color: white;
+    border-radius:20px;
+    width:65%;
+    padding-top:20px;
+    padding-bottom:40px;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+   
+}
+.wrap1{
+    width:30%;
+}
+.container{
+    display:flex;
+   justify-content:space-between;
+}
+.select1{
+    background-color: rgba(118, 148, 255, 1);
+    border-radius: 20px;
+    width:200px;
+    color:white;
+    height:35px;
+   text-align:center;
+    font-family: "Poppins";
+    font-size: 15px;
+    border:0px;
+    outline:0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.dropdown{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.exdrop{
+    position:absolute;
+    pointer-events: none;
+  }
+  .icon{
+    transform: translate(-29px,4px);
+     position:absolute;
+     width:26px;
+    
+   }
+   .heading{
+    border-bottom: 1.5px solid black;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 25px;
+}
+.contone{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+   
+
+}
+.about {
+    font-size: 21px;
+    font-family: "Poppins";
+   
+    left: 0;
+    margin-top:30px;
+}
+.image{
+    width:350px;
+}
+.contwo{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+    border-radius: 20px;
+    margin-top:40px;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-right:20px;
+    padding-left:20px;
+    
+}
+@media (max-width:1200px)
+{
+    .contone{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrap{
+        width:60%;
+
+    }
+    .wrap1{
+        width:35%;
+    }
+}
+@media (max-width:1090px)
+{
+    .wrap1{
+        width:37%;
+    }
+}
+@media (max-width:900px)
+{
+    .container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrap{
+        width:100%;
+        margin-top:40px;
+        margin-bottom:40px;
+
+    }
+    .wrap1{
+        width:100%;
+        
+    }
+}
+@media (max-width:400px)
+{
+    .heading{
+      font-size:22px;
+    }
+    .image{
+        width:98%;
+    }
+}
+@media (max-width:325px)
+{
+    .heading{
+        font-size:20px;
+      }
+}

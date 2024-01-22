@@ -1,0 +1,484 @@
+/* ------### Variables ###------ */
+:root {
+  --blue: #7694ff;
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #f2f2f2;
+  --darkgrey: #9c9c9c;
+}
+/* ------ Variables END ------ */
+
+/* ------### Commonly used Utility classes ###------ */
+.dflex {
+  display: flex;
+}
+.fdc {
+  flex-direction: column;
+}
+.fg1 {
+  flex-grow: 1;
+}
+.fb50 {
+  flex-basis: 50%;
+}
+.fwt {
+  flex-wrap: wrap;
+}
+.w100 {
+  width: 100%;
+}
+.h100 {
+  height: 100%;
+}
+.jcen {
+  justify-content: center;
+}
+.acen {
+  align-items: center;
+}
+.abtm {
+  align-items: flex-end;
+}
+.jspace {
+  justify-content: space-between;
+}
+.jeven {
+  justify-content: space-evenly;
+}
+.jend {
+  justify-content: flex-end;
+}
+.pad20 {
+  padding: 20px;
+}
+.pad2010 {
+  padding: 10px 20px;
+}
+.padl40 {
+  padding-left: 40px;
+}
+.padlr20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.dib {
+  display: inline-block;
+}
+.eqspace {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.eqspace20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mspacetop {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.mspcaebtm {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.eqspace_h {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.ml10 {
+  margin-left: 10px;
+}
+.mr10 {
+  margin-right: 10px;
+}
+.greybg {
+  background-color: var(--grey);
+}
+.greyclr {
+  color: var(--darkgrey);
+}
+.bluehvr:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+}
+.blueshaodow {
+  box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+}
+.wmaxc {
+  width: max-content;
+}
+.hvrptr:hover {
+  cursor: pointer;
+}
+
+/* ------ Utility classes END ------ */
+
+.outermostwrapper {
+  margin: 0 3.1rem;
+}
+.pageHeading {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.btn {
+  background-color: var(--blue);
+  padding: 11px 18px;
+  border-radius: 26px;
+  height: fit-content;
+  color: var(--white);
+  font-weight: bold;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.card {
+  box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+  border-radius: 20px;
+  background-color: var(--white);
+  padding: 2rem 2.5rem;
+}
+.sp_right {
+  border-left: 2px solid black;
+}
+.twodivw {
+  float: left;
+  width: 100%;
+}
+.td {
+  padding: 10px 15px;
+  font-weight: 300;
+  word-wrap: break-word;
+}
+.infotitle {
+  font-weight: bold;
+}
+.profilebg {
+  background-color: var(--grey);
+  width: 186px;
+  height: 186px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.sectionheading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+.abtsocspace {
+  height: 50px;
+  width: 100%;
+}
+/* ---XX About Component CSS XX--- */
+.about {
+  flex-basis: 55%;
+}
+.socicon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: var(--blue);
+}
+.namenpor {
+  padding-left: 25px;
+}
+.addsoc {
+  height: 102px;
+}
+.addsocicon {
+  width: 62px;
+  height: 62px;
+  color: #9c9c9c;
+}
+.socupform {
+  margin-top: 20px;
+  /* background-color: #7694ff; */
+}
+.socacform {
+  display: flex;
+}
+.socinput {
+  padding: 15px 20px;
+  font-size: inherit;
+  background-color: var(--grey);
+  border: none;
+  flex-grow: 1;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.socinput:focus {
+  outline: none;
+  border: none;
+}
+.updatebtn {
+  padding: 15px 20px;
+  color: #3ac884;
+  font-weight: 600;
+  font-size: 1em;
+  background-color: #d2f2e3;
+  border: none;
+  text-align: center;
+}
+.cancelbtn {
+  padding: 15px 20px;
+  color: #c83a3a;
+  font-weight: 600;
+  font-size: 1em;
+  background-color: #f2d2d2;
+  text-align: center;
+  border: none;
+}
+.cancelbtn:hover {
+  cursor: pointer;
+}
+.updatebtn:hover {
+  cursor: pointer;
+}
+.redtxt {
+  color: red;
+}
+.socaddform {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+  padding: 20px;
+}
+/* ---!! About Component CSS END !!--- */
+
+/* ---XX Achievements Component CSS XX--- */
+.achievements {
+  flex-basis: 45%;
+}
+.eachachievement {
+  width: 40%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+.eachachievement:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+}
+.acheivemntwrp {
+  margin-top: 3rem;
+}
+.achvdel {
+  display: none;
+  width: 100%;
+  bottom: 0px;
+}
+.eachachievement:hover > .achvdel {
+  display: flex;
+}
+/* ---!! Achievements Component CSS END !!--- */
+
+/* ---XX Project Component CSS XX--- */
+.projecttab {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+  padding: 10px 20px;
+  border-radius: 10px;
+  align-items: center;
+  margin: 10px 0px;
+}
+.prolink {
+  background-color: var(--blue);
+  color: white;
+}
+.quickreport {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.formproject {
+  box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+/* ---!! Project Component CSS END !!--- */
+
+/* ---XX Grievance Component CSS XX--- */
+.broundbtn {
+  background-color: var(--blue);
+  color: white;
+  padding: 7px;
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  /* margin-top: 20px; */
+}
+.broundbtn:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 18px rgba(118, 148, 255, 0.25);
+}
+.datebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 0px 20px;
+  border-radius: 20px;
+  margin: 0 5px;
+}
+.grievTable {
+  width: 100%;
+}
+.th {
+  text-align: left;
+}
+.twoparttions {
+  /* flex-basis: 40%; */
+  flex-grow: 1;
+}
+.twowrapper {
+  justify-content: space-between;
+  padding-top: 20px;
+  column-gap: 20px;
+}
+.sumbitbtngriev {
+  background-color: var(--blue);
+  color: white;
+  padding: 7px;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  /* width: 42px;
+  height: 42px; */
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 20px;
+  font-weight: 600;
+  font-size: 1em;
+  border: none;
+  text-align: center;
+  /* margin-top: 20px; */
+}
+.sumbitbtngriev:hover {
+  cursor: pointer;
+}
+/* ---!! Grievance Component CSS END !!--- */
+
+/* ==== Media Queries ==== */
+@media only screen and (max-width: 1000px) {
+  .sp_right {
+    border: none;
+    padding: 0px;
+  }
+  .infoWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .twodivw {
+    flex-direction: column;
+  }
+  .nameRollOuter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .namenroll {
+    padding: 0px;
+    align-items: center;
+  }
+  .name,
+  .roll {
+    padding: 0px;
+    padding: 10px;
+    text-align: center;
+  }
+  .outermostwrapper {
+    margin: 0 2rem;
+  }
+  /* .profilebg {
+    width: 123px;
+    height: 123px;
+  } */
+  .td {
+    font-size: 0.99rem;
+  }
+  .table {
+    border-top: 2px solid black;
+  }
+  .aboutcumachivements {
+    flex-direction: column;
+  }
+  .about {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .achievements {
+    margin: 0;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .twowrapper {
+    flex-direction: column;
+  }
+  .twoparttions {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  * {
+    word-wrap: break-word;
+  }
+  .td {
+    font-size: 0.8rem;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .table {
+    /* table-layout:fixed;
+        width:100%; */
+    border-top: 2px solid black;
+  }
+  .twodivw {
+    padding: 0px 15px;
+  }
+  .namenpor,
+  .abouttext {
+    font-size: 0.8rem;
+  }
+  .socwrappper {
+    padding: 10px 5px;
+    padding-right: 0px;
+  }
+  .abtnsocwrapper,
+  .card {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .outermostwrapper {
+    margin: 0 1.2rem;
+  }
+  .eachachievement {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
+
+.profileupdate {
+  position: relative;
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,30 @@
+.activeTab{
+    background-color: #fff !important;
+    color: #000 !important;
+    font-weight: 600;
+}
+.inactiveTab{
+    color: white !important;
+    font-weight: 600;
+}
+.closeicon{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+.navlogo {
+  width: 3rem;
+  height: auto;
+  border-radius: 50%;
+  background-color: white;
+  /* margin: 1rem auto; */
+  display: block;
+}
+.profileImg{
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right:10px
+}
